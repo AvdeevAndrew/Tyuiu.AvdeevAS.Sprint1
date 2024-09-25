@@ -6,6 +6,9 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task0.V23
     {
         static void Main(string[] args)
         {
+
+            DataService ds = new DataService(); 
+
             Console.Title = "Спринт #1 | Выполнил: Авдеев А.С. | ИБКСБ-24-1";
 
             Console.WriteLine("***************************************************************************");
@@ -39,7 +42,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task0.V23
             Console.WriteLine("РЕЗУЛЬТАТ:                                                                *");
             Console.WriteLine("***************************************************************************");
             
-            Console.WriteLine("x = " + DataService.Exercise( a, b, c, d));
+            Console.WriteLine("x = " + ds.Calculate());
 
             Console.ReadKey();
 
