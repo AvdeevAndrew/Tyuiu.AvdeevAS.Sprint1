@@ -5,7 +5,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task2.V10.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round((x * 39.3701), 3) ;
+            return Math.Round((x * 39.3701), 3) ;  //dfd
         }
     }
 }
