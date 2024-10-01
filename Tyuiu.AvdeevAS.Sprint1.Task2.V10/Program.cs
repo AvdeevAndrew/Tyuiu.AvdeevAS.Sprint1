@@ -27,7 +27,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task2.V10
 
 
             Console.WriteLine("Введите метры: ");
-            double x = Convert.ToDouble(Console.ReadLine());
+            int x = Convert.ToInt32(Console.ReadLine());
 
             
 
@@ -37,7 +37,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task2.V10
             Console.WriteLine("РЕЗУЛЬТАТ:                                                                *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("inch = " + ds.Calculate(x, 1));
+            Console.WriteLine("inch = " + ds.ConvertMetreToInchs(x));
 
 
             Console.ReadKey();

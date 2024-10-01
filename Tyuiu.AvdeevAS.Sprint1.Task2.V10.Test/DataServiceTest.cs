@@ -9,7 +9,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task2.V10.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual(39.370, ds.Calculate(1,1));
+            Assert.AreEqual(39.370, ds.ConvertMetreToInchs(1));
         }
     }
 }
