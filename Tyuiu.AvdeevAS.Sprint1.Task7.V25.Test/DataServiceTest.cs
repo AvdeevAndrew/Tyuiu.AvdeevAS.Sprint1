@@ -8,7 +8,7 @@ namespace Tyuiu.AvdeevAS.Sprint1.Task7.V25.Test
         public void TestMethod1()
         {
             DataService ds  = new DataService();
-            Assert.AreEqual(-6, 017, ds.Calculate(2, 2));
+            Assert.AreEqual(6.733, ds.Calculate(2, 4));
         }
     }
 }
